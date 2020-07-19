@@ -11,6 +11,9 @@
 }
 
 #logo-search-menu{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 162px 1fr 1fr;
@@ -89,6 +92,15 @@
     align-items: center;
 }
 
+#google-apps{
+    padding: 10px;
+}
+
+#google-apps:hover{
+    border-radius: 50%;
+    background-color: #edeef1;
+}
+
 .la-bars{
     font-size: larger;
 }
@@ -102,7 +114,8 @@
     padding: 0 25px;
     color: white;
     font-size: 0.9em;
-    margin: 0 20px;
+    margin-left: 15px;
+    margin-right: 30px;
 }
 
 #sign-in-button:hover{
