@@ -7,7 +7,14 @@
 
 #logo{
     width: 92px;
-    margin: 25px;
+    margin: 25px 45px 25px 25px;
+}
+
+#logo-search-menu{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 162px 1fr 1fr;
+    align-items: center;
 }
 
 #search-icon{
@@ -42,6 +49,7 @@
     align-items: center;
     font-size: larger;
     cursor: pointer;
+    color: #5F6368;
 }
 
 #search-input{
@@ -73,4 +81,114 @@
 #search-container:focus{
     box-shadow: 0 0 5px 1px #DFE1E5;
     border: none;
+}
+
+#google-menu{
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+}
+
+.la-bars{
+    font-size: larger;
+}
+
+#sign-in-button{
+    cursor: pointer;
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    padding: 0 25px;
+    color: white;
+    font-size: 0.9em;
+    margin: 0 20px;
+}
+
+#sign-in-button:hover{
+    background-color: #297ce9;
+    box-shadow: 0 1px 1px #297ce9;
+}
+
+#nav-menu{
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    width: 965px;
+    overflow: visible;
+    position: relative;
+    left: 170px;
+    letter-spacing: 0.05em;
+}
+
+#nav-menu a{
+    color: #5F6368;
+    font-size: 0.8em;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+#nav-menu a:visited{
+    color: #5F6368;
+}
+
+#nav-menu a:active{
+    color: blue;
+}
+
+#nav-menu #all-results{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+#nav-menu i{
+    font-size: larger;
+}
+
+#nav-menu .la-search{
+    color: #ffc400;
+}
+
+#search-menu{
+    display: flex;
+}
+
+#settings-menu{
+    display: flex;
+    position: relative;
+    left: 75px;
+}
+
+#tools-button{
+    padding: 7px 10px !important;
+    border: 1px solid transparent;
+}
+
+#tools-button:hover{
+    background-color: #f6f6f6;
+    border: 1px solid #DFE1E5;
+    box-shadow: 0 1px 1px #DFE1E5;
+}
+
+#tools-button:active{
+    box-shadow: inset 0 1px 1px #DFE1E5;
+    color: black !important;
+}
+
+#nav-separator{
+    overflow: hidden;
+    border-top: 1px solid #DFE1E5;
+    margin-bottom: 10px;
+}
+
+#results{
+    width: 700px;
+    position: relative;
+    left: 180px;
+}
+
+#number-results{
+    color: #70757A;
+    font-size: 0.9em;
 }
