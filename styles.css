@@ -11,9 +11,6 @@
 }
 
 #logo-search-menu{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 162px 1fr 1fr;
@@ -160,7 +157,7 @@
 }
 
 #nav-menu .la-search{
-    color: #ffc400;
+    color: #ff5e00;
 }
 
 #search-menu{
@@ -204,4 +201,258 @@
 #number-results{
     color: #70757A;
     font-size: 0.9em;
+}
+
+.link-results{
+    width: 650px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 0.9em;
+}
+
+.link-results a{
+    text-decoration: none;
+}
+
+.address{
+    color: black;
+}
+
+.category{
+    color: #70757A;
+}
+
+br{
+    margin-bottom: 5px;
+}
+
+.title{
+    color: darkblue;
+    font-size: 1.4em;
+}
+
+.title:visited{
+    color: darkblue;
+}
+
+.title:hover{
+    text-decoration: underline;
+}
+
+.description{
+    line-height: 1.5em;
+    margin-top: 5px;
+    color: #5F6368;
+    letter-spacing: initial;
+    cursor: default;
+}
+
+.description em{
+    font-style: normal;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    cursor: default;
+}
+
+#video-container{
+    height: 300px;
+    width: 208px;
+    display: inline-block;
+    border: 1px solid #DFE1E5;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-bottom: 15px;
+}
+
+#video-details{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4em;
+}
+
+#video-title{
+    color: darkblue;
+    font-size: 1em;
+    text-decoration: none;
+    width: 80%;
+}
+
+#video-title:visited{
+    color: darkblue;
+}
+
+#video-title:hover{
+    text-decoration: underline;
+}
+
+#channel{
+    font-size: 0.9em;
+    color: #70757A;
+    cursor: default;
+}
+
+#video-info{
+    display: flex;
+    cursor: default;
+}
+
+#website{
+    font-size: 0.9em; 
+}
+
+#video-info #date{
+    font-size: 0.9em;
+    color: #70757A;
+    padding-left: 0.3em;
+}
+
+.ch-first{
+    margin-top: 35px;
+}
+
+.ch-second{
+    margin-top: 15px;
+}
+
+#related-searches{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(2, 275px);
+}
+
+#related{
+    padding-top: 10px;
+    font-size: 0.9em;
+    color: darkblue;
+    text-decoration: none;
+}
+
+#related:visited{
+    color: darkblue;
+}
+
+#related:hover{
+    text-decoration: underline;
+}
+
+#pages{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 170px;
+    font-size: 0.9em;
+}
+
+#page-numbers{
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+    width: 500px;
+}
+
+#first-page{
+    display: inline;
+    padding-right: 7px;
+}
+
+.page{
+    padding-right: 7px;
+    color: blue;
+    text-decoration: none;
+}
+
+.page:visited{
+    color: blue;
+}
+
+.page:hover{
+    text-decoration: underline;
+}
+
+#next-page{
+    position: relative;
+    left: 45px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    padding: 11px 30px;
+    border-top: 1px solid #e4e4e4;
+}
+
+#upper{
+    font-size: 0.9em;
+    color: #70757A;
+}
+
+#upper-content{
+    display: inline;
+    position: relative;
+    left: 150px;
+}
+
+#upper p{
+    display: inline;
+}
+
+#upper strong{
+    color: #333333;
+}
+
+#upper #vertical-separator{
+    color: transparent;
+    border-left: 1px solid #DFE1E5;
+    font-size: larger;
+    margin-left: 10px;
+}
+
+#upper .la-circle{
+    font-size: 0.8em;
+    background-color: #9E9E9E;
+    color: #9E9E9E;
+    border-radius: 50%;
+}
+
+#upper a{
+    text-decoration: none;
+}
+
+#upper a:visited{
+    color: #70757A;
+}
+
+#upper a:hover{
+    color: #333333;
+}
+
+#help-menu{
+    font-size: 0.9em;
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+
+#help-menu li{
+    display: inline;
+}
+
+#help-menu a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+#help-menu a:visited{
+    color: #70757A;
+}
+
+#help-menu a:hover{
+    color: #333333;
 }
